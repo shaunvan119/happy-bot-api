@@ -1,8 +1,7 @@
 body {
     /* uigradients.com */
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(255,114,114);
+    background: linear-gradient(90deg, rgba(255,114,114,1) 35%, rgba(255,194,0,1) 100%);
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -15,7 +14,7 @@ button {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgb(157, 151, 155);
     border: 1px solid darkred;
     cursor: pointer;
 }
